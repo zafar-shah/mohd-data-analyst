@@ -21,6 +21,7 @@ export default function Page() {
 
           <h1 className="mt-4 text-2xl font-semibold text-slate-900">Mohd Shaha Zafar</h1>
           <p className="mt-1 font-medium text-green-800">Aspiring Data Analyst</p>
+          <p className="mt-1 text-sm text-slate-500">Now on GitHub</p>
 
           <p className="mt-5 text-pretty leading-relaxed text-slate-600">
             I am a B.Tech Computer Science graduate with skills in SQL, Python, Power BI, Excel, and data
