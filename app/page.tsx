@@ -12,15 +12,15 @@ export default function Page() {
   return (
     <main className="flex min-h-screen items-center justify-center bg-slate-50 px-4 py-12">
       <section className="w-full max-w-md overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-        <div className="h-24 bg-blue-700" aria-hidden="true" />
+        <div className="h-24 bg-green-800" aria-hidden="true" />
 
         <div className="-mt-12 flex flex-col items-center px-6 pb-8 text-center">
-          <div className="flex h-24 w-24 items-center justify-center rounded-full border-4 border-white bg-blue-700 text-3xl font-semibold text-white shadow-md">
+          <div className="flex h-24 w-24 items-center justify-center rounded-full border-4 border-white bg-green-800 text-3xl font-semibold text-white shadow-md">
             MZ
           </div>
 
           <h1 className="mt-4 text-2xl font-semibold text-slate-900">Mohd Shaha Zafar</h1>
-          <p className="mt-1 font-medium text-blue-700">Aspiring Data Analyst</p>
+          <p className="mt-1 font-medium text-green-800">Aspiring Data Analyst</p>
 
           <p className="mt-5 text-pretty leading-relaxed text-slate-600">
             I am a B.Tech Computer Science graduate with skills in SQL, Python, Power BI, Excel, and data
@@ -31,7 +31,7 @@ export default function Page() {
             {skills.map((skill) => (
               <li
                 key={skill}
-                className="rounded-full bg-blue-50 px-3 py-1 text-sm font-medium text-blue-700"
+                className="rounded-full bg-green-50 px-3 py-1 text-sm font-medium text-green-800"
               >
                 {skill}
               </li>
@@ -42,7 +42,7 @@ export default function Page() {
             href="https://www.linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-blue-700 px-5 py-3 font-medium text-white transition-colors hover:bg-blue-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700"
+            className="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-green-800 px-5 py-3 font-medium text-white transition-colors hover:bg-green-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-800"
           >
             <LinkedInIcon className="h-5 w-5" />
             Connect on LinkedIn
